@@ -4,7 +4,7 @@ const nameInput = document.getElementById('name')
 const downloadBtn = document.getElementById('download-btn')
 
 const image = new Image()
-image.src = 'cert.png'
+image.src = 'cert.jpeg'
 image.onload = function () {
 	drawImage()
 }
@@ -22,6 +22,6 @@ nameInput.addEventListener('input', function () {
 })
 
 downloadBtn.addEventListener('click', function () {
-	downloadBtn.href = canvas.toDataURL('image/jpg')
+	downloadBtn.href = canvas.toDataURL('image/jpeg')
 	downloadBtn.download = 'ISPOR_PSAU_Eid - ' + nameInput.value
 })
