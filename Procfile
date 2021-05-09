@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run index.html
+web: sh setup.sh run HTML.html
