@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:#e5e4e2;
+  background-color:#eae0c3;
   font-family: dashicons;
   text-align: center;
   margin-top: 40px;
@@ -36,7 +36,7 @@ main * {
 }
 
 input {
-  background-color:#e5e4e2;
+  background-color:#eae0c3;
   text-align: center;
   font-size: large;
   outline: none;
