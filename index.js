@@ -12,9 +12,9 @@ image.onload = function () {
 function drawImage() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '20px monotype corsiva'
-	ctx.fillStyle = '#716658'
-	ctx.fillText(nameInput.value,220,336)
+	ctx.font = '30px monotype corsiva'
+	ctx.fillStyle = '#000000'
+	ctx.fillText(nameInput.value,284,329)
 }
 
 nameInput.addEventListener('input', function () {
@@ -22,6 +22,6 @@ nameInput.addEventListener('input', function () {
 })
 
 downloadBtn.addEventListener('click', function () {
-	downloadBtn.href = canvas.toDataURL('image/jpeg')
-	downloadBtn.download = 'ISPOR_PSAU_Eid - ' + nameInput.value
+	downloadBtn.href = canvas.toDataURL('image/png')
+	downloadBtn.download = 'Phramacoeconomics_inSaudiArabia_ISPOR_PSAU - '
 })
