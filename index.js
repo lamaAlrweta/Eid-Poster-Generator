@@ -13,7 +13,7 @@ function drawImage() {
 	ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 	ctx.font = '30px monotype corsiva'
-	ctx.fillStyle = '#000000'
+	ctx.fillStyle = '#228B22'
 	ctx.fillText(nameInput.value,287,334)
 }
 
